@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;	
+    background-color: red;
+    font-family: Tahoma, sans-serif;
+  }
+  
+  .flex {
+      /* Set the menu to a flexbox model, set the flex-direction to row, and make the items center aligned. Also make sure the items wrap around when it fills the entire row. **/
+  }
+  
+  .title {
+      
+  
+      /* Make the background color yellow, the and add margin and padding so that the boxes are not too close to each other. Furthermore, make the text of the title bold. 
+      **/
+  
+      /* If you have time figure out online how to make the corners of the boxes rounded
+      **/
+  }
+  
+  .head {
+      /* Make the background color yellow, the and add margin and padding so that the boxes are not too close to each other. Furthermore, make the text of the title bold. 
+      **/
+  
+      /* If you have time figure out online how to make the corners of the boxes rounded
+      **/
+  }
+  
+  .item {
+      /* Make the background color yellow, the and add margin and padding so that the boxes are not too close to each other. Also center align the text using font-align and make sure that the font-size is not too big or small.
+      **/
+  
+      /* If you have time figure out online how to make the corners of the boxes rounded
+      **/
+      
+  }
+  
+  .group {
+      /* Make the background color orange, the and add margin and padding so that the boxes are not too close to each other. Furthermore, make the text of the title bold. 
+      **/
+  
+      /* If you have time figure out online how to make the corners of the boxes rounded
+      **/
+  }
+  /* When you finish, try adding images to the menu so customers can see how the items they buy look! */
+  
+  
