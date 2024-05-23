@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  /* Flex changes the way we can view multiple elements on the same row or column. You will learn more about this next week! :) **/
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* BEGIN SOLUTION */
+  
+  /* Part 1: Creating the board(boxes) for tic tac toe! 
+      /* Rememeber, a board must have height, width, border, etc... */
+      /* In total, you should have 5-6 different properties here */
+  .t_box {
+      /* Your Code Here! */
+  }
+  /* Part 2: Creating the x box! 
+      /* X box has very similar properties to a regular t_box. What is it that you are putting inside each box?  */
+      /* In total, you should have 7-8 different properties here */
+  .x_box {
+    /* Your Code Here! */
+  }
+  /* Part 2: Creating the o box! 
+      /* This is the same as the x box but with o instead of x. Rememeber, x is one player and o is another so how should o be different?  */
+      /* In total, you should have 7-8 different properties here */
+  .o_box {
+    /* Your Code Here! */
+  }
+  
+  
+  /* END SOLUTION */
+  p {
+      line-height: 90%;
+      display: inline;
+      font-size: 160px;
+  }
+  
+  h1 {
+    /* Create a cool gradient >:) */
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 30%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }

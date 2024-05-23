@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* BEGIN SOLUTION */
+
+.t_box {
+  height: 130px;
+  width: 130px;
+  border-style: solid;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px
+}
+
+.x_box {
+  height: 130px;
+  width: 130px;
+  border-style: solid;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+  border-color: red;
+  color: red;
+}
+
+.o_box {
+  height: 130px;
+  width: 130px;
+  border-style: solid;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+  border-color: blue;
+  color: blue;
+}
+p {
+	line-height: 90%;
+	display: inline;
+	font-size: 160px;
+}
+
+/* END SOLUTION */
+
+
+h1 {
+  /* Create the gradient. */
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 30%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
